@@ -1,0 +1,29 @@
+Last login: Wed Jun 23 18:53:43 on ttys002
+jeremy@zipcodes-MacBook-Pro-5 ~ % pwd
+/Users/jeremy
+jeremy@zipcodes-MacBook-Pro-5 ~ % ls
+CR-MicroLabs-Git-MyFirstFork	Music
+DayOneDemo			Pictures
+Desktop				Public
+Documents			dev
+Downloads			githome
+First Classs			ls
+Library				ungittable
+Movies				yo.txt
+jeremy@zipcodes-MacBook-Pro-5 ~ % cd ~
+jeremy@zipcodes-MacBook-Pro-5 ~ % pwd
+/Users/jeremy
+jeremy@zipcodes-MacBook-Pro-5 ~ % cd Dev
+jeremy@zipcodes-MacBook-Pro-5 Dev % ls
+DayOneDemo		MyProject2		myFile2.txt
+DolioWorkPage		lecturedemos
+IntelliJ_Projects	myFile.txt
+jeremy@zipcodes-MacBook-Pro-5 Dev % mv myFile.txt myFile2.txt
+jeremy@zipcodes-MacBook-Pro-5 Dev % ls
+DayOneDemo		IntelliJ_Projects	lecturedemos
+DolioWorkPage		MyProject2		myFile2.txt
+jeremy@zipcodes-MacBook-Pro-5 Dev % cd myFile2.txt
+cd: not a directory: myFile2.txt
+jeremy@zipcodes-MacBook-Pro-5 Dev % grep Hello myFile.txt
+grep: myFile.txt: No such file or directory
+jeremy@zipcodes-MacBook-Pro-5 Dev % grep myFile.txt
